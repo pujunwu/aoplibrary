@@ -1,4 +1,5 @@
 package  com.junwu.plugin
+
 import com.android.build.gradle.AppPlugin
 import com.android.build.gradle.LibraryPlugin
 import org.gradle.api.Plugin
@@ -11,7 +12,7 @@ import org.aspectj.tools.ajc.Main
 public class MyPlugin implements Plugin<Project> {
 
     void apply(Project project) {
-        println "dddd******************d"
+        println "开始切入"
 
         def hasApp = project.plugins.withType(AppPlugin)
         def hasLib = project.plugins.withType(LibraryPlugin)

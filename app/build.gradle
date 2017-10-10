@@ -31,7 +31,6 @@ dependencies {
     testCompile 'junit:junit:4.12'
 
     compile project(':aoplibjw')
-
 }
 //引入自定义插件
 apply plugin: 'com.junwu.gradle'

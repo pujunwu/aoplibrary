@@ -1,4 +1,5 @@
 apply plugin: 'groovy'
+apply plugin: 'maven'
 
 dependencies {
     //gradle sdk
@@ -12,4 +13,13 @@ dependencies {
 
 repositories {
     jcenter()
+}
+
+uploadArchives {
+    repositories.mavenDeployer {
+        repository(url: uri('../repo'))
+        pom.groupId = 'com.junwu.plugin'//你的包名
+        pom.artifactId = 'gradleplugin'//在需要引用插件时用到
+        pom.version = '0.0.1'
+    }
 }
