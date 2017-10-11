@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BuildSrc/BuildSrc.iml" filepath="$PROJECT_DIR$/BuildSrc/BuildSrc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/aoplibjw/aoplibJw.iml" filepath="$PROJECT_DIR$/aoplibjw/aoplibJw.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aoplibjw/aoplibjw.iml" filepath="$PROJECT_DIR$/aoplibjw/aoplibjw.iml" />
       <module fileurl="file://$PROJECT_DIR$/aoplibrary.iml" filepath="$PROJECT_DIR$/aoplibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
