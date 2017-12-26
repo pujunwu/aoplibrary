@@ -35,6 +35,10 @@
         android:onClick="onclickListener2"
         android:text="\@Method的使用"/>
 
+    <WebView
+        android:id="@+id/wvView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
     <!--
     <TextView
